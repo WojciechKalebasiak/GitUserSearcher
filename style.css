@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+#root {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 30px 20px;
+}
+label {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 4em;
+    color:#E74C3C;
+}
+input {
+    width: 50%;
+    margin-top: 3.5%;
+    height: 35px;
+    font-size: 2em;
+}
+img {
+    max-width: 350px;
+    max-height: 400px;
+    margin: 0 auto;
+    border:6px solid #ECF0F1;
+    border-radius: 5%;
+    display: block;
+    margin-top: 10%;
+}
+a {
+    color: #ECF0F1;
+    font-size: 2.5em;
+    font-family: 'Open-Sans', sans-serif;
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+    margin-top: 2%;
+    display: inline-block;
+}
+a:hover {
+    color: #646464;
+}
